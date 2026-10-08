@@ -24,6 +24,20 @@ The sample was a phishing email carrying a password-protected archive with a wea
 
 The report recommends email authentication (**SPF, DKIM, DMARC**) to make spoofed senders harder, mapped to ATT&CK technique T1566, together with user-awareness training (mitigation M1017) and account-use policies (M1036).
 
+## Screenshots
+
+The phishing email, using social engineering to get the user to open a password-protected attachment:
+
+![Phishing email](screenshots/01-phishing-email.png)
+
+oletools confirming the document carries VBA macros:
+
+![oletools analysis](screenshots/02-oletools-analysis.png)
+
+The macro loader — downloads and runs a payload, then tells the user to disable antivirus:
+
+![Macro loader code](screenshots/03-macro-loader-code.png)
+
 ## Tools & concepts
 
 oletools (olevba) · MITRE ATT&CK · VBA / macro reverse engineering · SPF/DKIM/DMARC · phishing analysis
