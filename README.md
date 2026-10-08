@@ -1,6 +1,6 @@
 # Phishing & Macro Analysis
 
-Analysing a phishing email that delivered a malicious Office macro, and documenting the attacker's evasion techniques with MITRE ATT&CK. Part of the CYB2100 Cyber Defense exam at Kristiania.
+Analysing a phishing email that delivered a malicious Office macro, and documenting the attacker's evasion techniques with MITRE ATT&CK.
 
 ## Overview
 
